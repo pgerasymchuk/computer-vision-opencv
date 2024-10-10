@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# input videos and 3D assets are not part of the repository
+*.mp4
+*.avi
+*.mov
+ar-scene/*.obj
+ar-scene/*.mtl
+ar-scene/texture.jpg
+
+# generated output
+*.ply
+clustering/result_images/
